@@ -1,0 +1,42 @@
+#signature{
+    stroke-dasharray: 844.3432006835938;
+    stroke-dashoffset: 844.3432006835938;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+#happy{
+    stroke-dasharray: 1372.4825439453125;
+    stroke-dashoffset: 1372.4825439453125;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+#friendship{
+    stroke-dasharray: 1649.159912109375;
+    stroke-dashoffset: 1649.159912109375;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+#day{
+    stroke-dasharray: 933.3187255859375;
+    stroke-dashoffset: 933.3187255859375;
+    animation: sign 4s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sign{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+div{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+html{
+    background-color: black;
+}
